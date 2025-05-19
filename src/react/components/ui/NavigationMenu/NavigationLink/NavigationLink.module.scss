@@ -1,0 +1,11 @@
+@use "../../../../../styles/abstracts/media" as *;
+
+.link {
+  display: block;
+  font-size: 20px;
+  text-align: center;
+
+  @include hover {
+    font-weight: 500;
+  }
+}
