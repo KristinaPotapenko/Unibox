@@ -1,0 +1,39 @@
+@use "../../../../styles/abstracts/mixins" as *;
+@use "../../../../styles/abstracts/media" as *;
+
+.headerLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+
+  @include hover {
+    p {
+      transform: scale(1.05);
+    }
+
+    svg {
+      animation: rotate360 1s linear infinite;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+  }
+
+  svg {
+    @include square(var(--icon-size));
+    transition: transform 0.3s ease;
+  }
+}
+
+@keyframes rotate360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
