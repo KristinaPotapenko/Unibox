@@ -1,6 +1,15 @@
 @font-face {
   font-display: swap;
-  font-family: "Styrene";
+  font-family: "StyreneAWeb";
   font-weight: 400;
-  src: url("../../assets/fonts/StyreneAWeb-Regular.woff2");
+  src: url("/assets/fonts/StyreneAWeb-Regular.woff2") format("woff2"),
+    url("/assets/fonts/StyreneAWeb-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "StyreneAWeb";
+  font-weight: 500;
+  src: url("/assets/fonts/StyreneAWeb-Medium.woff2") format("woff2"),
+    url("/assets/fonts/StyreneAWeb-Medium.ttf") format("truetype");
 }
