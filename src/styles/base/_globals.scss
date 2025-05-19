@@ -1,0 +1,41 @@
+body {
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  color: var(--primary-color-dark);
+  background-color: var(--primary-color-light);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: var(--transition-duration);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.section {
+  padding-block: 32px;
+}
