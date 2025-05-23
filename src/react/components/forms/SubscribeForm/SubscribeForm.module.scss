@@ -1,0 +1,16 @@
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.privacy {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+
+  a {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
