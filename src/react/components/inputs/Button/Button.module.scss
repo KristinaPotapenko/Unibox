@@ -1,0 +1,28 @@
+@use "../../../../styles/abstracts/mixins" as *;
+@use "../../../../styles/abstracts/media" as *;
+
+.button {
+  @include reset-button;
+  @include flex-center(true);
+
+  gap: 8px;
+  min-height: var(--button-height);
+  padding: 11px 18px;
+  color: var(--primary-color-light);
+  background-color: var(--primary-color-dark);
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+
+  @include hover {
+    color: var(--primary-color-dark);
+    background-color: var(--color-gray-300);
+  }
+
+  &:active,
+  &:focus {
+    color: var(--primary-color-dark);
+    background-color: var(--primary-color-light);
+    border: var(--border-dark);
+  }
+}
