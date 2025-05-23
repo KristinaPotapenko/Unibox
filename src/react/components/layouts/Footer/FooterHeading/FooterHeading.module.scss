@@ -1,0 +1,13 @@
+@use "../../../../../styles/abstracts/media" as *;
+
+.heading {
+  letter-spacing: 0.72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-color-gray);
+  cursor: pointer;
+
+  @include hover {
+    color: var(--primary-color-dark);
+  }
+}
