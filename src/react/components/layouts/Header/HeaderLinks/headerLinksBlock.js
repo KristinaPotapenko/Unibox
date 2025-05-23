@@ -1,7 +1,7 @@
-import Search from "../../../../assets/icons/search.svg?react";
-import User from "../../../../assets/icons/user.svg?react";
-import Favorites from "../../../../assets/icons/heart.svg?react";
-import Cart from "../../../../assets/icons/bag.svg?react";
+import Search from "../../../../../assets/icons/search.svg?react";
+import User from "../../../../../assets/icons/user.svg?react";
+import Favorites from "../../../../../assets/icons/heart.svg?react";
+import Cart from "../../../../../assets/icons/bag.svg?react";
 
 export const headerLinksBlock = [
   {
