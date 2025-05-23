@@ -6,12 +6,14 @@
   --color-gray-100: #f5f4f4;
   --color-gray-200: #f8f9fa;
   --color-gray-300: #d3d4d5;
-  --color-gray-400: #565656;
+  --color-gray-400: #a2a2a2;
+  --color-gray-500: #565656;
 
   --color-error: #ef4444;
 
   --border-dark: 2px solid var(--primary-color-dark);
-  --border-gray: 1px solid var(#6a6a6a);
+  --border-gray: 2px solid var(--color-gray-400);
+  --border-light: 2px solid var(--color-gray-300);
   --border-radius-medius: 10px;
   --border-radius-large: 20px;
 

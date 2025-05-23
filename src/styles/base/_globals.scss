@@ -19,6 +19,10 @@ a {
   color: inherit;
 }
 
+#root {
+  min-height: 100%;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -38,4 +42,8 @@ main {
 
 .section {
   padding-block: 32px;
+}
+
+.sectionGrayBg {
+  background-color: var(--color-gray-200);
 }
